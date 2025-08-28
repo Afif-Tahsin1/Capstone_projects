@@ -1,7 +1,7 @@
 /*Hero section*/
 .hero {
     height: 100vh;
-    background: linear-gradient(135deg, #a6a36a 0%, #8e18b5 100%);
+    background: linear-gradient(135deg, #d7da18 0%, #e44d0d 100%);
     color: white;
     display: flex;
     align-items: center;
@@ -192,7 +192,7 @@
     }
 }
 .footer{
-    background-color: #0eb2ed;
+    background-color: #edb10e;
     color: #fff;
     padding: 70px 25%;
 }
