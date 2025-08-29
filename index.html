@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Afif's Portfolio Website</title>
+    <link rel="icon" type="image/x-icon" href="Assests\favicon_io\favicon.ico">
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
@@ -37,7 +38,7 @@
         </nav>
     </header>
     <main>
-        <section class="hero">
+        <section id="hero" class="hero">
 
             <!-- Floating shapes -->
 
@@ -154,6 +155,41 @@
                 </div>
             </div>
         </section>
+        <section class="container mt-5">
+            <h3 id="myProject" class="text-center">My Projects</h3>
+            <div class="row">
+                <div class="col-4">
+                    <div class="card" style="width: 18rem;">
+                        <img height="200rem" src="Assests/Coding.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 1</h5>
+                            <p class="card-text">I like coding because I want to be a programmar in future. I want to make games,  apps and other things.</p>
+                            <a href="#" class="btn btn-danger">see source code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card" style="width: 18rem;">
+                        <img height="200rem" src="Assests/Football.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 2</h5>
+                            <p class="card-text">I like football because I want to be a footballer in future and I wan to join a football match and win. I practise flaying football everyday.</p>
+                            <a href="#" class="btn btn-danger">see source code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card" style="width: 18rem;">
+                        <img height="200rem" src="Assests/Cricket.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 3</h5>
+                            <p class="card-text">I like cricket because I want to be a cricketer in future. I want to join a cricket match and win. I practise playing cricket everyday.</p>
+                            <a href="#" class="btn btn-danger">see source code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer class="footer">
 
@@ -163,11 +199,11 @@
 
                 <div class="footer-col">
 
-                    <h4>Company</h4>
+                    <h4>My Info</h4>
 
                     <ul>
-                        <li><a href="#">About Me</a></li>
-                        <li><a href="#">My Projects</a></li>
+                        <li><a href="#hero">About Me</a></li>
+                        <li><a href="projects.html">My Projects</a></li>
 
                     </ul>
                 </div>
@@ -179,7 +215,7 @@
                         <a href="#"><i class="fab fa-facebook-f"></i></a>
                         <a href="#"><i class="fab fa-twitter"></i></a>
                         <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="https://github.com/Afif-Tahsin1 " target="_blank"><i class="fab fa-github"></i></a>
                     </div>
                 </div>
             </div>
